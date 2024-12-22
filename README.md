@@ -33,8 +33,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 ## How to Use
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-repo/employee-burnout-analysis.git
-cd employee-burnout-analysis
+https://github.com/suman2896/Employee_Burnout_Prediction.git
+cd Employee_Burnout_Analysis
 ```
 
 ### Step 2: Add Dataset
@@ -81,16 +81,16 @@ The script will prompt you to enter employee details (e.g., Gender, Company Type
 ```plaintext
 Enter the following details for prediction:
 Gender (Male/Female): Male
-Company Type (Product/Service): Service
+Company Type (Product/Service): Product
 WFH Setup Available (Yes/No): Yes
-Designation (1 to 5): 3
-Resource Allocation (1 to 10): 7.5
-Mental Fatigue Score (0 to 10): 6.8
+Designation (1 to 5): 4
+Resource Allocation (1 to 10): 5
+Mental Fatigue Score (0 to 10): 8
 ```
 
 ### Example Output
 ```plaintext
-Predicted Burn Rate: 0.4675
+Predicted Burn Rate: 0.6772
 ```
 
 ## Contributing
